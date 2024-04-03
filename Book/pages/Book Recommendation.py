@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv('https://github.com/RojalJoy/Book-Recommendation-/blob/main/Book/pages/data.csv')
+df = pd.read_csv('pages/data.csv')
 
 # Title of the web app
 st.title('Book Recommendation System')
