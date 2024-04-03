@@ -35,7 +35,7 @@ def run():
 
     # Display image and caption at the bottom (optional)
     st.empty()
-    st.image("pages/books.jpg", use_column_width=True, caption="Happy Reading!")
+    st.image("https://github.com/RojalJoy/Book-Recommendation-/blob/main/Book/pages/books.jpg", use_column_width=True, caption="Happy Reading!")
 
 if __name__ == "__main__":
     run()
